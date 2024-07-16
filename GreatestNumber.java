@@ -9,15 +9,17 @@ public class GreatestNumber {
         System.out.println("Enter 3 numbers");
         int a= sc.nextInt(), b=sc.nextInt(),c= sc.nextInt();
         System.out.print("The greatest number is: ");
-        if(a>=b && a>=c){
-            System.out.println(a);
+        //assume max=a
+        int max=a;
+        //if b>a then, assign b to a
+        if(b>max){
+            max=b;
         }
-        else if(b>=a && b>=c){
-            System.out.println(b);
+        //if c>a, it implies c > b (curr value of a) which is in turn > a
+        if(c>max){
+            max=c;
         }
-        else{
-            System.out.println(c);
-        }
+        System.out.println(max);
         sc.close();
     }
 }
