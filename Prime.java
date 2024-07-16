@@ -1,6 +1,7 @@
 package assignment3;
 
 public class Prime {
+    //5. Write a program to print prime numbers between 1 to 30
     public static void main(String[] args) {
         System.out.println("The prime numbers from 1 to 30 are:");
         for (int i = 2; i <=30 ; i++) {

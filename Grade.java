@@ -3,6 +3,7 @@ package assignment3;
 import java.util.Scanner;
 
 public class Grade {
+    //2. Create a program that takes a student's score as input and outputs their corresponding grade.
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the score");

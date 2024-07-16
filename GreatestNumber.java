@@ -3,6 +3,7 @@ package assignment3;
 import java.util.Scanner;
 
 public class GreatestNumber {
+    //1. Take three numbers from the user and print the greatest number.
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter 3 numbers");

@@ -3,6 +3,7 @@ package assignment3;
 import java.util.Scanner;
 
 public class EvenNumberSum {
+    //6. Write a program to find the sum of even numbers only in a given array. Use continue.
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter array size: ");
